@@ -23,4 +23,24 @@
         margin-top: 5rem;
     }
 
+    .aboutContainer .imgAbout img {
+        width: 28rem;
+    }
+
+    .techniquesContainer {
+        text-align: center;
+    }
+
+    .techniquesContainer .techs h1 {
+        font-size: 3rem;
+    }
+
+    .techniquesContainer .techs p {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .techniquesContainer .techs button {
+        width: 100%;
+    }
 }
