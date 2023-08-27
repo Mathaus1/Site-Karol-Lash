@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 990px) {
+
+    .titleMenu {
+        display: none;
+    }
+
+    .btnResponsiveMenu i {
+        font-size: 3rem;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .aboutContainer .textAbout p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .imgAbout {
+        margin-top: 5rem;
+    }
+
+}

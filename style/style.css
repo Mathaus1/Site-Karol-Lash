@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.defaultContainer {
+  height: 80vh;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .titleMenu {
+    display: none;
+  }
+  .btnResponsiveMenu i {
+    font-size: 3rem;
+  }
+  .aboutContainer {
+    flex-direction: column;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .aboutContainer .textAbout p {
+    width: 100%;
+    text-align: justify;
+  }
+  .imgAbout {
+    margin-top: 5rem;
+  }
+}
+.header {
+  box-shadow: 0px 0px 30px #620080;
+  background-size: cover;
+  background-position: center;
+}
+.header .titleHeader img {
+  width: 8rem;
+  margin-left: 20px;
+}
+.header .headerButton {
+  border: none;
+}
+.header #navbarMobileToggle {
+  margin-left: 20px;
+  margin-top: 10px;
+  border-top: 2px solid purple;
+}
+.header #navbarMobileToggle ul li:hover {
+  transform: scale(1.1);
+  transition: ease-in 200ms;
+}
+
+main .bannerContainer {
+  background-image: url("../images/banner-lash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .aboutContainer {
+  height: 100%;
+}
+main .textAbout p {
+  width: 30rem;
+}
+main .imgAbout img {
+  width: 30rem;
+}
+main .techniquesContainer {
+  background-image: url("../images/banner-lash1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

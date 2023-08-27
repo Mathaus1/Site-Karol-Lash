@@ -1,0 +1,53 @@
+.header {
+    box-shadow: 0px 0px 30px $primary-color;
+    background-size: cover;
+    background-position: center;
+
+    & .titleHeader img {
+        width: 8rem;
+        margin-left: 20px;
+    }
+
+    & .headerButton {
+        border: none;
+    }
+
+    & #navbarMobileToggle {
+        margin-left: 20px;
+        margin-top: 10px;
+        border-top: 2px solid purple;
+    }
+
+    & #navbarMobileToggle ul li:hover {
+        transform: scale(1.1);
+        transition: ease-in 200ms;
+    }
+}
+
+main {
+
+
+    & .bannerContainer {
+        background-image: url('../images/banner-lash.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    & .aboutContainer {
+        height: 100%;
+    }
+
+    & .textAbout p {
+        width: 30rem;
+    }
+
+    & .imgAbout img {
+        width: 30rem;
+    }
+
+    & .techniquesContainer {
+        background-image: url('../images/banner-lash1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}
