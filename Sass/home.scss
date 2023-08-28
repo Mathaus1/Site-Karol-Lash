@@ -14,6 +14,7 @@ html {
 
     & .headerButton {
         border: none;
+        width: 3.5rem;
     }
 
     & #navbarMobileToggle {
@@ -41,12 +42,14 @@ main {
     }
 
     & .textAbout h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
         color: $primary-color;
+        font-family: 'Tangerine', cursive;
     }
 
     & .textAbout p {
         width: 30rem;
+        font-size: 0.9rem;
     }
 
     & .imgAbout img {
@@ -58,7 +61,7 @@ main {
         background-position: center;
         background-size: cover;
     }
-    
+
     & .techniquesContainer {
         color: #fff;
     }
@@ -73,20 +76,57 @@ main {
         text-shadow: 0px 0px 10px #000;
     }
 
-    & .techniquesContainer button {
+    & #modalButton {
         border: none;
-        border-radius: 10px;
         width: 10rem;
         padding: 0.8rem;
         background-color: #9c3aca;
         color: #fff;
-        box-shadow: 0px 0px 10px #3f3f3f;
         transition: ease-in 300ms;
         font-weight: 600;
 
         &:hover {
             background-color: #fff;
-            color: #9c3aca;
+            color: $primary-color;
         }
+    }
+
+    & .modal-header {
+        color: #fff;
+    }
+
+    & .modal-content {
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(13.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    & .card button {
+        width: 100%;
+        background-color: transparent;
+
+    }
+
+    & .card1 {
+        background-image: url('../images/tecnicas/brasileiro.jfif');
+        background-size: cover;
+        background-position: center;
+    }
+
+    & .card2 {
+        background-image: url('../images/tecnicas/volume\ egipcio.jpg');
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    & .card3 {
+        background-image: url('../images/tecnicas/volume\ express.jpg');
+        background-size: cover;
+        background-position: center;
+
     }
 }

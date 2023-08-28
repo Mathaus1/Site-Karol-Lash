@@ -7,3 +7,39 @@
 .defaultContainer {
     height: 80vh;
 }
+
+button {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 10rem;
+    padding: 0.8rem;
+    background-color: #9c3aca;
+    color: #fff;
+    transition: ease-in 300ms;
+    font-weight: 600;
+
+    &:hover {
+        font-size: 1.2rem;
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(13.5px);
+        border-radius: 10px;
+
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#staticBackdrop h1 {
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}
+#staticBackdrop p {
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}

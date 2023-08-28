@@ -62,7 +62,8 @@
 
         </div>
 
-        <div id="aboutContainer" class="container-fluid mt-5 d-flex justify-content-center align-items-end aboutContainer">
+        <div id="aboutContainer"
+            class="container-fluid mt-5 d-flex justify-content-center align-items-end aboutContainer">
             <div class="textAbout mt-auto mb-auto">
                 <h1>Sobre Mim</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed placeat dicta repellendus officiis
@@ -76,14 +77,50 @@
             </div>
         </div>
 
-        <div id="techniquesContainer" class="container-fluid d-flex justify-content-evenly align-items-center techniquesContainer defaultContainer">
+        <div id="techniquesContainer"
+            class="container-fluid d-flex justify-content-evenly align-items-center techniquesContainer defaultContainer">
             <div class="techs">
                 <h1>Transformando olhares</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit consequuntur cum maiores
                     tenetur commodi consequatur eos sint quod amet.</p>
-                <button>Técnicas</button>
+
+                <!-- Button modal -->
+                <button id="modalButton" class="rounded-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Técnicas</button>
             </div>
             <div></div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Técnicas</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column gap-4">
+                        <div class="card card1">
+                            <h1>Volume Brasileiro</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, expedita.</p>
+                            <button class="rounded-4">Agendar</button>
+                        </div>
+
+                        <div class="card card2">
+                            <h1>Volume Egípcio</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, expedita.</p>
+                            <button class="rounded-4">Agendar</button>
+                        </div>
+
+                        <div class="card card3">
+                            <h1>Express</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, expedita.</p>
+                            <button class="rounded-4">Agendar</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
