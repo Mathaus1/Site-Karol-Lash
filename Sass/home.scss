@@ -79,7 +79,7 @@ main {
     & #modalButton {
         border: none;
         width: 10rem;
-        padding: 0.8rem;
+        height: 2.5rem;
         background-color: #9c3aca;
         color: #fff;
         transition: ease-in 300ms;
@@ -97,6 +97,7 @@ main {
 
     & .modal-content {
         background: rgba(255, 255, 255, 0.35);
+        width: 25rem;
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(13.5px);
